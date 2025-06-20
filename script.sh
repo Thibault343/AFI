@@ -35,22 +35,22 @@ while [ "$checked_for_download" = false ]; do
         echo "[$i] $name, Statut: $status"  # Affichage de l'index, du nom et du statut
     done 
     i=0
-    echo "Sélectionnez dans ce format (1 2 3) :"
+    echo "Select in this format (1 2 3) :"
     read softwares_list 
     if [[ -z "$softwares_list" ]]; then
-        echo "Aucune sélection effectuée. Veuillez réessayer."
+        echo "No selection made. Please try again."
         continue
     fi
-    echo "Validez en écrivant 'start' :"
+    echo "Confirm by typing 'start' :"
     read value
 
     # Vérification de la valeur entrée
     if [ "$value" = "start" ]; then
         checked_for_download=true  # Mettre à jour la condition pour sortir de la boucle
-        echo "Téléchargement démarré..."
+        echo "Starting Download..."
         download $softwares_list
     else
-        echo "Vous avez entré : $value. Veuillez réessayer."
+        echo "You have entered: $value. Please try again."
     fi
 done
 
