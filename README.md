@@ -1,4 +1,5 @@
 # APT Fast Installer 
+Are you installing a new Linux computer and would like to install all your software at once? AFI is here to solve the problem. AFI is a script that allows you to install everything that can be downloaded via APT in one go.
 ## What is AFI?
 Are you installing a new Linux computer and would like to install all your software at once? AFI is here to solve the problem.
 AFI is a script that allows you to install everything that can be downloaded via APT in one go.
