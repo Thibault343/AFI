@@ -1,6 +1,7 @@
 # APT Fast Installer 
 ## What is AFI?
-AFI (APT Fast Installer) is a script that allows you to install several software or packages in one go by selecting them.
+Are you installing a new Linux computer and would like to install all your software at once? AFI is here to solve the problem.
+AFI is a script that allows you to install everything that can be downloaded via APT in one go.
 ## How do I use it?
 1. Download or clone the repository.
 ```bash
