@@ -3,7 +3,7 @@
 AFI (APT Fast Installer) is a script that allows you to install several software or packages in one go by selecting them.
 ## How do I use it?
 1. Download or clone the repository.
-``bash
+```bash
 git clone https://github.com/Thibault343/AFI
 
 ```
