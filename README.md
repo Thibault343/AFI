@@ -38,7 +38,7 @@ start
 - neofetch
 - sublime text
 - cmatrix
-- Cisual Studio Code (code)
+- Visual Studio Code (code)
 # Want add more?
 Create a pull request and add the line in the script!!
 
