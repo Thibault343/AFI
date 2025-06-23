@@ -20,10 +20,10 @@ chmod +x ./script.sh
 4. Select what you want to download 
 Example: 2 3 4 will download sl, neofetch and sublime-text
 ```bash
-[1] vim, Status: false
-[2] sl, Status: false
-[3] neofetch, Status: false
-[4] sublime-text, Status: false
+[1] vim
+[2] sl 
+[3] neofetch 
+[4] sublime-text
 Select in this format (1 2 3) :
 2 3 4
 ```
