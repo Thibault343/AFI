@@ -2,10 +2,10 @@
 
 # Déclaration du tableau
 declare -a softwares=(
-    "vim:false"
-    "sl:false"
-    "neofetch:false"
-    "sublime-text:false"
+    "vim"
+    "sl"
+    "neofetch"
+    "sublime-text"
 )
 
 # Initialisation de l'index
