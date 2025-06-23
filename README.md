@@ -32,7 +32,13 @@ Select in this format (1 2 3) :
 Validate by writing ‘start’ :
 start
 ```
-
+# AppList
+- vim
+- sl
+- neofetch
+- sublime text
+- cmatrix
+- Cisual Studio Code (code)
 # Want add more?
 Create a pull request and add the line in the script!!
 

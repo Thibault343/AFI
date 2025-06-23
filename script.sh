@@ -6,6 +6,8 @@ declare -a softwares=(
     "sl"
     "neofetch"
     "sublime-text"
+    "cmatrix"
+    "code"
 )
 
 # Initialisation de l'index
@@ -32,7 +34,7 @@ while [ "$checked_for_download" = false ]; do
     for element in "${softwares[@]}"; do
         ((i++))  # Incrémentation de i
         IFS=':' read -r name status <<< "$element"  # Lecture du nom et du statut
-        echo "[$i] $name, Statut: $status"  # Affichage de l'index, du nom et du statut
+        echo "[$i] $name"  # Affichage de l'index, du nom et du statut
     done 
     i=0
     echo "Select in this format (1 2 3) :"
